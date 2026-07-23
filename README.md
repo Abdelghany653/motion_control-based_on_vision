@@ -13,7 +13,7 @@ A custom MATLAB App Designer application was developed to monitor and control th
   </p>
   
 #### Application Components
-##### 1. Control Panel
+#### 1. Control Panel
 The control panel provides the main interaction with the system.
 
 It includes:
@@ -25,11 +25,11 @@ It includes:
 - **Save Data Button** to store experimental data for later analysis.
 - **HSV Button** to open the HSV calibration tool used for color segmentation.
 
-##### 2. Live Annotated Camera View
+#### 2. Live Annotated Camera View
 The live camera window continuously captures images of the rotating disk and processes them in real time.
 Using color-based image processing, the application detects predefined colored markers attached to the rotating disk and calculates its current angular position. The detected markers, reference vectors, and measured angle are overlaid on the live video, allowing the user to visually verify the tracking accuracy.
 
-##### 3. Live Measurements
+#### 3. Live Measurements
 The live measurement panel displays the current operating parameters of the control system, including:
 - Current measured angle
 - Position error
@@ -39,7 +39,7 @@ The live measurement panel displays the current operating parameters of the cont
 - Sampling time
 These values are updated continuously throughout system operation.
 
-##### 4. PI Controller Parameters
+#### 4. PI Controller Parameters
 The application allows online adjustment of the PI controller gains without modifying the program.
 The user can configure:
 - **Proportional Gain (Kp)** –> Determines the controller's response to the current position error.
@@ -48,11 +48,11 @@ The user can configure:
 - **Tolerance** –> Defines the acceptable angular error for considering the desired position reached.
 This functionality simplifies controller tuning and enables rapid performance optimization.
 
-##### 5. HSV Calibration Panel
+#### 5. HSV Calibration Panel
 The HSV calibration section stores the lower and upper HSV thresholds used for color detection.
 Separate HSV ranges are defined for each colored marker, allowing reliable object detection under different lighting conditions. These values can be adjusted to improve tracking accuracy.
 
-##### 6. Desired vs Actual Position Plot
+#### 6. Desired vs Actual Position Plot
 The lower panel displays the system response in real time.
 The graph compares:
 - **Desired Position** (red dashed line)
