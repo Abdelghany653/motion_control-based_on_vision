@@ -72,10 +72,12 @@ This visualization allows the user to evaluate important control characteristics
 
 ## Demonstration Video
 
+- ##### Watch the simulation of the project by clicking the button below.
 <p align="center">
-  <img src="docs/line_following_robot.gif" alt="Line Following Robot Demo" width="15%">
+  <a href="https://veed.io/view/21fd575a-6156-4fff-a92f-49aa89d440cd">
+    <img src="https://img.shields.io/badge/▶%20Watch-Demo%20Video-red?style=for-the-badge" alt="Watch Demo">
+  </a>
 </p>
-
 
 
 
