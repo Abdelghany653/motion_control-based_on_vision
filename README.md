@@ -1,4 +1,4 @@
-# Motion Control-Based on Vision
+# Vision-Based Motion Control System
 
 ## Abstract
 This project presents a computer vision-based motion control system that estimates the angular position of a rotating disk using a camera instead of conventional rotary encoders. Image processing algorithms are employed to detect a reference marker on the disk and calculate its angular displacement in real time. The measured angle is displayed through a graphical user interface developed using MATLAB App Designer, allowing users to monitor the system, visualize the disk orientation, and command the disk to move to a desired angular position.
